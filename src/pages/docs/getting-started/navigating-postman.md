@@ -44,11 +44,42 @@ Postman provides a variety of views and controls to manage your API projects.
 
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)
 
+<!-- TODO: semi-abstracted image with labels -->
+
+## Header
+
+The header allows you to create workspaces, access reports, explore the public API network, [search](#universal-search) within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, and access your settings, account, and [Postman plan](/docs/administration/buying/).
+
+* Home
+* Workspaces
+* API Network
+* Reports
+* Explore
+* Search Postman <!-- TODO: are we married to "universal search" -->
+* Sync status
+* Invite
+* Settings / gear icon
+* Notifications
+* Avatar: profile, notifications, account settings
+* Team dropdown (check for what this is paid vs not; user not on a team)
+
+## Left sidebar
+
+The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/), and request [history](#history).
+
+<!-- TODO: flows, in beta -->
+
+## Work area <!-- TODO: must be a better name for this -->
+
+The center area is where you build and work with requests.
+
+### Tabs
+
 The Postman UI includes the following components:
 
-* The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/), and request [history](#history).
-* The header allows you to create workspaces, access reports, explore the public API network, [search](#universal-search) within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, and access your settings, account, and [Postman plan](/docs/administration/buying/).
-* The center area is where you build and work with requests.
+*
+*
+*
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right, you can launch the __Bootcamp__, collection runner, trash, and two pane view, as well as access help resources.
 
 On the right panel, you can see icons to view the documentation, comments, code, and request info.
