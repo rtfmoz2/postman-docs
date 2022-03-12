@@ -63,70 +63,7 @@ The header allows you to create workspaces, access reports, explore the public A
 * Avatar: profile, notifications, account settings
 * Team dropdown (check for what this is paid vs not; user not on a team)
 
-## Left sidebar
-
-The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/), and request [history](#history).
-
-<!-- TODO: flows, in beta -->
-
-## Work area <!-- TODO: must be a better name for this -->
-
-The center area is where you build and work with requests.
-
-### Tabs
-
-The Postman UI includes the following components:
-
-*
-*
-*
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right, you can launch the __Bootcamp__, collection runner, trash, and two pane view, as well as access help resources.
-
-On the right panel, you can see icons to view the documentation, comments, code, and request info.
-
-<img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" width="300px"/>
-
-To open the __Documentation__ tab, select the request under your collection and select the Documentation icon <img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="25px"/> on the right panel.
-
-<img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
-
-To open the documentation in another tab, select __View complete collection documentation__.
-
-<img alt="Overview Documentation" src="https://assets.postman.com/postman-docs/documentation-pane-v8.jpg" width="400px"/>
-
-To publish a documentation for a collection, see [Publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).
-
-To open the __Comments__ tab, select the request under your collection and the Comments icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="30px"/> on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body, and tests.
-
-[![Overview Comments](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)
-
-To learn more about comments, see [Commenting on collections](/docs/collaborating-in-postman/commenting-on-collections/).
-
-To open the __Code snippets__ tab, select the request under your collection, and then select the Code icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> on the right panel. For more information, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
-
-<img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" width="350px"/>
-
-## Resizing and collapsing panes
-
-You can drag the bottom panel to resize the panes in the Postman UI.
-
-[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized-v8.gif)](https://assets.postman.com/postman-docs/panes-resized-v8.gif)
-
-You can also declutter your workspace by collapsing panes. Use the button at the bottom-left to hide the sidebar and the button at the bottom-right to toggle between a single and two pane view.
-
-[![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
-
-## Related Collections
-
-When a request is selected in Postman, you can see a Related Collections (light bulb) icon <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg" width="25px"/> on the right panel.
-
-Select the icon to view public collections from the [API Network](https://www.postman.com/explore/) that share the same base URL as your request and include API documentation to help you get started.
-
-<img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-v8.8.0.jpg"/>
-
-You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection to quick-start your development.
-
-## Universal search
+### Universal search
 
 You can access universal search by selecting __Search Postman__ at the top of Postman, or by using the keyboard shortcut `Command + K`.
 
@@ -155,35 +92,19 @@ Depending on the entity type, the search results contain different information:
 * For APIs, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the type of workspace.
 * For teams, the search result contains the name and summary of the team. Selecting the team name redirects you to the team profile.
 
-## Find and replace
+## Left sidebar
 
-In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __Command + Shift + F__ or __Ctrl + Shift + F__.
+The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/), and request [history](#history).
 
-Enter your search string and, optionally, choose which entities to return, entering replacement text if necessary.
+<!-- TODO: flows, in beta -->
 
-![Find and replace](https://assets.postman.com/postman-docs/find-and-replace-tab-v8.jpg)
+## Main work area
 
-Postman searches tabs, collections, and variables. You can select an item directly in the search results to open an entity.
-
-> __Find and Replace__ isn't available in Postman for Web.
-
-## History
-
-You can access a history of the requests you've made in the __History__ tab on the left. If you're signed into a Postman account, your history syncs across your devices.
-
-<img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" width="400px"/>
-
-Select a request to open it again. Select __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
-
-The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option can't be used with requests from collection runner.
-
-The __View more actions__ menu allows you to save, monitor, document, or mock a request. Use the delete (trash icon) or __Clear all__ options to remove requests from your history. You can select multiple requests by pressing `Command` or `Control` and selecting the requests.
-
-## Tabs
+### Tabs
 
 Tabs allow you to organize and work between multiple requests.
 
-### Opening a new tab
+#### Opening a new tab
 
 To open a new tab, select __+__ in the middle of the screen.
 
@@ -195,7 +116,17 @@ If you open a request and don't edit or send it, then open another request, the 
 
 You can set whether Postman opens requests in new tabs. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
 
-### Managing tabs
+#### Saving or discarding changes
+
+If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to close the tab, then select **Don't save**.
+
+#### Viewing conflicts
+
+A tab may indicate a conflict if you or a collaborator changes it in another tab or workspace. Postman prompts you to resolve any conflicts that may occur. <!-- TODO: link to docs -->
+
+<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/tab-conflict.jpg" width="300px"/>
+
+#### Managing tabs
 
 You can have many tabs open at the same time. To rearrange your open tabs, select and drag them in the desired order.
 
@@ -228,15 +159,71 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 <img alt="Scroll to navigate tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
 
-### Saving or discarding changes
+### Context bar
 
-If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to close the tab, then select **Don't save**.
+The _context bar_ gives you access to more tools, including documentation, comments, code snippets, and request information, based on which kind of Postman element you select.
 
-### Viewing conflicts
+<!-- TODO: new screenshot that shows related collections icon -->
 
-A tab may indicate a conflict if you or a collaborator changes it in another tab or workspace. Postman prompts you to resolve any conflicts that may occur.
+Tool | Available for | Description
+--- | --- | ---
+**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> | Collections, requests | See the documentation for a collection or for a specific request. (To learn how to create documentation for your own collections, see [Publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).)
+**Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> | Collections, requests, APIs | Leave comments on a specific part of a request or an API. For more information about comments, see [Commenting on collections](/docs/collaborating-in-postman/commenting-on-collections/).
+**Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> | Requests, APIs, history | Generate code snippets in a variety of languages and frameworks that you can use in other apps. To learn more about code snippets and how to use them, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
+**Info** | Collections, requests, APIs, environments, mock servers, monitors |
+**Related collections** | Requests, history | View public collections from the [Public API Network](/docs/getting-started/exploring-public-api-network/) that share the same base URL as your request and include API documentation. Select any recommended collection to view its contents and documentation.
+**Changelog** | Collections, APIs |
+**Pull requests** | Collections |
+**Forks** | Collections, environments |
+**Changelog** | Collections, APIs |
+**Activity feed** | Monitors |
 
-<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/tab-conflict.jpg" width="300px"/>
+### Environment selector and environment quick look
+
+## Status bar
+
+The status bar on the bottom of the app enables you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right, you can launch the __Bootcamp__, collection runner, trash, and two pane view, as well as access help resources.
+
+### Collapsing panes
+
+You can declutter your workspace by collapsing panes. Use the button at the bottom-left to hide the sidebar and the button at the bottom-right to toggle between a single and two pane view.
+
+[![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
+
+You can also drag the bottom panel to resize the panes in the Postman UI. <!-- TODO: this should probably go somewhere else, but where -->
+
+[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized-v8.gif)](https://assets.postman.com/postman-docs/panes-resized-v8.gif)
+
+### Find and replace
+
+In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __Command + Shift + F__ or __Ctrl + Shift + F__.
+
+Enter your search string and, optionally, choose which entities to return, entering replacement text if necessary.
+
+![Find and replace](https://assets.postman.com/postman-docs/find-and-replace-tab-v8.jpg)
+
+Postman searches tabs, collections, and variables. You can select an item directly in the search results to open an entity.
+
+> __Find and Replace__ isn't available in Postman for Web.
+
+### Console
+
+
+
+
+
+
+## History
+
+You can access a history of the requests you've made in the __History__ tab on the left. If you're signed into a Postman account, your history syncs across your devices.
+
+<img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" width="400px"/>
+
+Select a request to open it again. Select __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
+
+The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option can't be used with requests from collection runner.
+
+The __View more actions__ menu allows you to save, monitor, document, or mock a request. Use the delete (trash icon) or __Clear all__ options to remove requests from your history. You can select multiple requests by pressing `Command` or `Control` and selecting the requests.
 
 ## Next steps
 
