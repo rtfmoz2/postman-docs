@@ -48,6 +48,24 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
 
 You will carry out most of the Postman JavaScript API functionality using `pm.*`, which provides access to request and response data, and variables.
 
+Here is PM command stucture in the Postman Sandbox. Click on each one to drill down to the available subcommands to find out how they work. They have been loosely categorized into what function they perform.
+
+|[pm.info](#scripting-with-request-info)|Scripting with Postman request information|
+|[pm.request](#scripting-with-request-data)|Working with HTTP request Data|
+|[pm.response](#scripting-with-response-data)|Working with HTTP response Data|
+|[pm.cookies](#scripting-with-request-cookies)|Working with Session cookies|
+|[pm.sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
+pm.sendRequest
+pm.expect
+pm.test
+pm.globals
+pm.variables
+pm.environment
+pm.collectionVariables
+pm.request
+pm.response
+pm.iterationData
+pm.cookies
 ### Using variables in scripts
 
 You can access and manipulate [variables](/docs/sending-requests/variables/) at each scope in Postman using the `pm` API.
