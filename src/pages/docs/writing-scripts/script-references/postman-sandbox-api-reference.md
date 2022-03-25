@@ -50,8 +50,9 @@ You will carry out most of the Postman JavaScript API functionality using `pm.*`
 
 Here is PM command stucture in the Postman Sandbox. Click on each one to drill down to the available subcommands to find out how they work. They have been loosely categorized into what function they perform.
 
-|[pm.info](#scripting-with-request-info)|Scripting with Postman request information|
+| pm commands| Description |
 |---|---|
+|[pm.info](#scripting-with-request-info)|Scripting with Postman request information|
 |[pm.request](#scripting-with-request-data)|Working with HTTP request Data|
 |[pm.response](#scripting-with-response-data)|Working with HTTP response Data|
 |[pm.cookies](#scripting-with-request-cookies)|Working with Session cookies|
