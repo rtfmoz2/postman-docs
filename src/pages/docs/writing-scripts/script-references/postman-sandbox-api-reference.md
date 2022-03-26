@@ -52,7 +52,7 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 
 ||Postman Commands|Descriptions|
 |---|---|---|
-|[pm](#pm)|[.info](#scripting-with-request-info)|Scripting with Postman request information|
+|[pm](#the-pm-object)|[.info](#scripting-with-request-info)|Scripting with Postman request information|
 ||[.request](#scripting-with-request-data)|Working with HTTP request Data|
 ||[.response](#scripting-with-response-data)|Working with HTTP response Data|
 ||[.cookies](#scripting-with-request-cookies)|Working with Session cookies|
@@ -62,7 +62,7 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 
 ||Variable Commands|Descriptions|
 |---|---|---|
-|[pm](#pm)|[.variables](#using-variables-scripts)|Working with Variables|
+|[pm](#the-pm-object)|[.variables](#using-variables-scripts)|Working with Variables|
 ||[.globals](#using-global-variables-in-scripts)|Working with Global Variables|
 ||[.environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
 ||[.collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
