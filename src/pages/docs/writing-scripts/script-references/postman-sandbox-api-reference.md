@@ -50,7 +50,7 @@ You will carry out most of the Postman JavaScript API functionality using `pm.*`
 
 Here is PM command stucture in the Postman Sandbox. Click on each one to drill down to the available subcommands to find out how they work. They have been loosely categorized into what function they perform.
 
-| PM commands| Description |
+|Commands|Descriptions|
 |---|---|
 |[pm.info](#scripting-with-request-info)|Scripting with Postman request information|
 |[pm.request](#scripting-with-request-data)|Working with HTTP request Data|
@@ -59,14 +59,15 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 |[pm.sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
 |[pm.expect](#assertions-from-scripts)|Building assertions in your tests|
 |[pm.test](#testing-with-scripts)|Create tests inside you scripts|
-|---|---|
-| PM commands | Variables and Scope |
+
+|Variable Commands|Descriptions|
+|----|---|
 |[pm.variables]|(#using-variables-scripts)|Using Variables|
 |[pm.globals](#using-global-variables-in-scripts)|Using Global Variables|
 |[pm.environment](#using-environment-variables-in-scripts)|Using Environment Variables|
 |[pm.collectionVariables](#using-collection-variables-in-scripts)|Using Collection Variables|
-| PM commands | Utility commands |
-|[pm.iterationData](#iterate-through-object)|Handling lists of objects in your scripts|
+|[pm.iterationData](#iterate-through-object)|Using objects lists in your scripts|
+
 , , and 
 ### Using variables in scripts
 
