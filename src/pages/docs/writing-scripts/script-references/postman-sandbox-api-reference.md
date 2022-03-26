@@ -53,20 +53,20 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 ||Postman Commands|Descriptions|
 |---|---|---|
 |[pm](#the-pm-object)|[.info](#scripting-with-request-info)|Scripting with Postman request information|
-||[.request](#scripting-with-request-data)|Working with HTTP request Data|
-||[.response](#scripting-with-response-data)|Working with HTTP response Data|
-||[.cookies](#scripting-with-request-cookies)|Working with Session cookies|
-||[.sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
-||[.expect](#assertions-from-scripts)|Building assertions in your tests|
-||[.test](#testing-with-scripts)|Create tests inside you scripts|
+||[request](#scripting-with-request-data)|Working with HTTP request Data|
+||[response](#scripting-with-response-data)|Working with HTTP response Data|
+||[cookies](#scripting-with-request-cookies)|Working with Session cookies|
+||[sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
+||[expect](#assertions-from-scripts)|Building assertions in your tests|
+||[test](#testing-with-scripts)|Create tests inside you scripts|
 
-||Variable Commands|Descriptions|
+||Postman Variable Commands|Descriptions|
 |---|---|---|
-|[pm](#the-pm-object)|[.variables](#using-variables-scripts)|Working with Variables|
-||[.globals](#using-global-variables-in-scripts)|Working with Global Variables|
-||[.environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
-||[.collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
-||[.iterationData](#iterate-through-object)|Using objects lists in your scripts|
+|[pm](#the-pm-object)|[variables](#using-variables-scripts)|Working with Variables|
+||[globals](#using-global-variables-in-scripts)|Working with Global Variables|
+||[environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
+||[collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
+||[iterationData](#iterate-through-object)|Using objects lists in your scripts|
 
 , , and 
 ### Using variables in scripts
