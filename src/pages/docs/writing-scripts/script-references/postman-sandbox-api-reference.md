@@ -62,11 +62,11 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 
 ||Variable Commands|Descriptions|
 |---|---|---|
-|[pm](#pm)|[pm.variables](#using-variables-scripts)|Working with Variables|
-||[pm.globals](#using-global-variables-in-scripts)|Working with Global Variables|
-||[pm.environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
-||[pm.collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
-||[pm.iterationData](#iterate-through-object)|Using objects lists in your scripts|
+|[pm](#pm)|[variables](#using-variables-scripts)|Working with Variables|
+||[globals](#using-global-variables-in-scripts)|Working with Global Variables|
+||[environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
+||[collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
+||[iterationData](#iterate-through-object)|Using objects lists in your scripts|
 
 , , and 
 ### Using variables in scripts
