@@ -50,7 +50,7 @@ You will carry out most of the Postman JavaScript API functionality using `pm.*`
 
 Here is PM command stucture in the Postman Sandbox. Click on each one to drill down to the available subcommands to find out how they work. They have been loosely categorized into what function they perform.
 
-|Postman Commands|Descriptions|Postman Variable Commands|Descriptions|
+|Postman Commands |Descriptions |Postman Variable Commands |Descriptions |
 |---|---|---|---|
 |[info](#scripting-with-request-info)|Scripting with Postman request information|[variables](#using-variables-scripts)|Working with Variables|
 
