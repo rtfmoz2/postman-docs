@@ -60,13 +60,13 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 ||[expect](#assertions-from-scripts)|Building assertions in your tests|
 ||[test](#testing-with-scripts)|Create tests inside you scripts|
 
-|Variable Commands|Descriptions|
-|----|---|
-|[pm.variables](#using-variables-scripts)|Working with Variables|
-|[pm.globals](#using-global-variables-in-scripts)|Working with Global Variables|
-|[pm.environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
-|[pm.collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
-|[pm.iterationData](#iterate-through-object)|Using objects lists in your scripts|
+||Variable Commands|Descriptions|
+|---|---|---|
+|[pm](#pm)|[pm.variables](#using-variables-scripts)|Working with Variables|
+||[pm.globals](#using-global-variables-in-scripts)|Working with Global Variables|
+||[pm.environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
+||[pm.collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
+||[pm.iterationData](#iterate-through-object)|Using objects lists in your scripts|
 
 , , and 
 ### Using variables in scripts
