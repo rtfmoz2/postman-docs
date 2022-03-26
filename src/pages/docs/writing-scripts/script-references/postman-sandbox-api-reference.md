@@ -52,13 +52,13 @@ Here is PM command stucture in the Postman Sandbox. Click on each one to drill d
 
 |Postman Commands|Descriptions|
 |---|---|
-|[pm.info](#scripting-with-request-info)|Scripting with Postman request information|
-|[pm.request](#scripting-with-request-data)|Working with HTTP request Data|
-|[pm.response](#scripting-with-response-data)|Working with HTTP response Data|
-|[pm.cookies](#scripting-with-request-cookies)|Working with Session cookies|
-|[pm.sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
-|[pm.expect](#assertions-from-scripts)|Building assertions in your tests|
-|[pm.test](#testing-with-scripts)|Create tests inside you scripts|
+|[pm]|[info](#scripting-with-request-info)|Scripting with Postman request information|
+||[request](#scripting-with-request-data)|Working with HTTP request Data|
+||[response](#scripting-with-response-data)|Working with HTTP response Data|
+||[cookies](#scripting-with-request-cookies)|Working with Session cookies|
+||[sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
+||[expect](#assertions-from-scripts)|Building assertions in your tests|
+||[test](#testing-with-scripts)|Create tests inside you scripts|
 
 |Variable Commands|Descriptions|
 |----|---|
