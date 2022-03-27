@@ -65,7 +65,7 @@ The following table lists the modifiers and the subcommands they are valid with.
 |Command|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|
 |---|---|---|---|---|---|---|---|---|
 |Variable Commands|has|get|set|replaceIn|toObject|name|unset|clear|
-|[variables](#using-variables-scripts)||<ul><li>- [x]</li></ul>|[]|[]|[]|[]|[]|[]|[]|
+|[variables](#using-variables-scripts)||- [x] x|[]|[]|[]|[]|[]|[]|[]|
 
 
 url|headers|method|body|add|remove|upsert|code|text|json|responseTime|responseSize|
