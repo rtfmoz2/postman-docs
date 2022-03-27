@@ -48,28 +48,57 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
 
 You will carry out most of the Postman JavaScript API functionality using `pm.*`, which provides access to request and response data, and variables.
 
-A pm command consist of three part with optional modifiers. `pm.`[[function]()\].\[[method]()\].\[[modifier...]()\]
+A pm command consist of three part with optional modifiers. `pm.`[[class]()\].\[[method]()\].\[[modifier...]()\]
 
-These following table lists the the main methods. Click on one to drill down to the available choices for each.
+This is an  overview of the pm function calls available in the Postman Sandbox.
 
-|Command Functions |Descriptions |Variable Functions |Descriptions |Testing Functions |Descriptions |
+|Classes |Descriptions |Variable Classes |Descriptions |Testing Functions |Descriptions |
 |---|---|---|---|---|---|
-|[info](#scripting-with-request-info)|Information on the current request|[variables](#using-variables-scripts)|Working with Variables|[test](#testing-with-scripts)|Create tests inside you scripts|
-|[request](#scripting-with-request-data)|Working with HTTP request data|[globals](#using-global-variables-in-scripts)|Working with Global Variables|[expect](#assertions-from-scripts)|Building assertions in your tests|
-|[response](#scripting-with-response-data)|Working with HTTP response data|[environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
-|[cookies](#scripting-with-request-cookies)|Working with Session cookies|[collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
-|[sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|[iterationData](#iterate-through-object)|Using objects lists in your scripts|
+|[info](#scripting-with-request-info)|Current request information|[variables](#using-variables-scripts)|Current Variables|[test](#testing-with-scripts)|Script Tests|
+|[request](#scripting-with-request-data)|HTTP request data|[globals](#using-global-variables-in-scripts)|Global Variables|[expect](#assertions-from-scripts)|Script assertions|
+|[response](#scripting-with-response-data)|HTTP response data|[environment](#using-environment-variables-in-scripts)|Environment Variables|
+|[cookies](#scripting-with-request-cookies)|Session cookies|[collectionVariables](#using-collection-variables-in-scripts)|Collection Variables|
+|[sendRequest](#sending-requests-from-scripts)|Sending HTTP requests|[iterationData](#iterate-through-object)|Objects lists|
 
-The following table lists the modifiers and the subcommands they are valid with.
+Variables
 
-|Command|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|
-|---|---|---|---|---|---|---|---|---|
-|Variable Commands|has|get|set|replaceIn|toObject|name|unset|clear|
-|[variables](#using-variables-scripts)||[x]|[]|[]|[]|[]|[]|[]|[]|
+The following variable types are supported
+
+|Name|Properties|
+|---|---|
+|string|Convert the value of the variable to a string before returning its contents|
+|boolean|[true]() or [false]()|
+|number|Always represented as a number, if it cannot then NaN (Not A Number) is returned|
+|array|Array data format|
+|object|Object data format|
+|any|freeform type and default for any variable unless specified otherwise|
+
+With scripting variables can be defined at any level. If the pm command is not used to define them they inherit the scope of the environment in which they are defined. Collection level definitions create global variable by default. Variables can be defined at the collection, folder or individual request level. Variables at the collection level are always created as globals. Those at the folder level are local variables which only exist for the defined at those levels inherate the propery of the level 
+Variables can be defined in scopes. In descending scope size they are global, environment, folder, request. Variables can be defined at all levels. If a variable name exists in multiple scopes the most specific or narrow scope is always used. In this way environment variable can override collection variable of the same name. In contrast global variables cannot override anything.
+
+These are the variables functions and their purposes.
+
+|Functions|Descriptions|Methods|Description|
+|---|---|---|---|
+|[variables](#using-variables-scripts)|Local variable change|[has(variableName:String):boolean]()|Check if the variable exists in current or function scope.|
+|[globals](#using-global-variables-in-scripts)|Global Variables Changes|[get(variableName:String):*]()|Get the variables value in the current or function scope.|
+|[environment](#using-environment-variables-in-scripts)|Environment Variable Change|[set(variableName:String, variableValue:*)]()|Set the variables value|
+|[collectionVariables](#using-collection-variables-in-scripts)|Collection Variable Change|[replaceIn(variableName:String)]()|Replace a variable's value|
+|[iterationData](#iterate-through-object)|This function iterates through an object.|[toObject():object]()|Return an object with all the variables in the current or function scope|
+|||[name]()|The name of the active environment|
+
+These are the methods available for the variable functions and their purpose.
+
+|Method|Description|Version introduced|
+|---|---|---|
+|[has(variableName:String):boolean]()|Check if the variable exists in current or function scope.|v9.1|
+|[get(variableName:String):*]()|Get the variables value in the current or function scope.|v9.1|
 
 
 url|headers|method|body|add|remove|upsert|code|text|json|responseTime|responseSize|
-|globals|[ ]|[]|[]
+|globals|&#9989;	
+|globals|	
+&#9989;|[]|[]
 ||```|
 
 
