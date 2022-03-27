@@ -48,26 +48,32 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
 
 You will carry out most of the Postman JavaScript API functionality using `pm.*`, which provides access to request and response data, and variables.
 
-Here is PM command stucture in the Postman Sandbox. Click on each one to drill down to the available subcommands to find out how they work. They have been loosely categorized into what function they perform.
+A pm command consist of three part with optional modifiers. `pm.`[[function]()\].\[[method]()\].\[[modifier...]()\]
 
-|Postman Commands |Descriptions |Postman Variable Commands |Descriptions |
-|---|---|---|---|
-|[info](#scripting-with-request-info)|Scripting with Postman request information|[variables](#using-variables-scripts)|Working with Variables|
+These following table lists the the main methods. Click on one to drill down to the available choices for each.
 
-||[request](#scripting-with-request-data)|Working with HTTP request Data|
-||[response](#scripting-with-response-data)|Working with HTTP response Data|
-||[cookies](#scripting-with-request-cookies)|Working with Session cookies|
-||[sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|
-||[expect](#assertions-from-scripts)|Building assertions in your tests|
-||[test](#testing-with-scripts)|Create tests inside you scripts|
+|Command Functions |Descriptions |Variable Functions |Descriptions |Testing Functions |Descriptions |
+|---|---|---|---|---|---|
+|[info](#scripting-with-request-info)|Information on the current request|[variables](#using-variables-scripts)|Working with Variables|[test](#testing-with-scripts)|Create tests inside you scripts|
+|[request](#scripting-with-request-data)|Working with HTTP request data|[globals](#using-global-variables-in-scripts)|Working with Global Variables|[expect](#assertions-from-scripts)|Building assertions in your tests|
+|[response](#scripting-with-response-data)|Working with HTTP response data|[environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
+|[cookies](#scripting-with-request-cookies)|Working with Session cookies|[collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
+|[sendRequest](#sending-requests-from-scripts)|Sending your own HTTP requests|[iterationData](#iterate-through-object)|Using objects lists in your scripts|
 
-||Postman Variable Commands|Descriptions|
-|---|---|---|
-|[pm](#the-pm-object)|[variables](#using-variables-scripts)|Working with Variables|
-||[globals](#using-global-variables-in-scripts)|Working with Global Variables|
-||[environment](#using-environment-variables-in-scripts)|Working with Environment Variables|
-||[collectionVariables](#using-collection-variables-in-scripts)|Working with Collection Variables|
-||[iterationData](#iterate-through-object)|Using objects lists in your scripts|
+The following table lists the modifiers and the subcommands they are valid with.
+
+|Command|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|Modifier|
+|---|---|---|---|---|---|---|---|---|
+|Variable Commands|has|get|set|replaceIn|toObject|name|unset|clear|
+|[variables](#using-variables-scripts)||<ul><li>- [x] item</li></ul>|[]|[]|[]|[]|[]|[]|[]|
+
+
+url|headers|method|body|add|remove|upsert|code|text|json|responseTime|responseSize|
+|globals|[ ]|[]|[]
+||```|
+
+
+
 
 , , and 
 ### Using variables in scripts
